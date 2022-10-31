@@ -12,7 +12,7 @@
  position: relative;
  width: 110px;
  
- left: 125px;
+ left: 140px;
  top: 200px;
  border-radius: 100%;
 }
@@ -26,9 +26,68 @@
  border-radius: 100%;
 }
 
-.triangulo1{
-   width: 100px;
-   
+.triangulo{
+   width: 0px;
+   left: 50px;
+   display: flex;
+   position: absolute;   
    
     
 }
+
+.papel1{
+   background-color: rgb(255, 255, 255);
+ height: 90px;
+ position:absolute ;
+ width: 90px;
+ left: 10px;
+ top: 10px;
+ border-radius: 100%;
+}
+
+.papel{
+   background-color: rgb(64, 78, 201);
+ height: 110px;
+ position: relative;
+ width: 110px;
+ left: 40px;
+ top: -40px;
+ border-radius: 100%;
+}
+
+.papel2{
+   width: 40px;
+   position: relative;
+   left: 32px;
+   top: 32px;
+  
+}
+
+.tijeras{
+   background-color: rgb(229, 215, 22);
+   height: 110px;
+   position: relative;
+   width: 110px;
+   left: 230px;
+   top: -150px;
+   border-radius: 100%;
+}
+.tijeras1{
+   background-color: rgb(255, 255, 255);
+   height: 90px;
+   position:absolute ;
+   width: 90px;
+   left: 10px;
+   top: 10px;
+   border-radius: 100%;
+}
+
+.tijeras2{
+   width: 40px;
+   position: relative;
+   left: 32px;
+   top: 32px;
+}
+
+
+
