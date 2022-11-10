@@ -19,6 +19,7 @@
 }
 
 .triangulo{
+   top: 130px;
    width: 0px;
    left: 20px;
    display: flex;
@@ -74,13 +75,14 @@ top: 60px;
 .contenedormayor{
 display: flex;
 align-items: center;
-position: relative;
-left: 20px;
+position: absolute;
+left: 30px;
 margin: 0px;
+top: 130px;
 }
 .cerar1{
    position: absolute;
-   top: 400px;
+   top: 320px;
 }
 
 
