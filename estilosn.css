@@ -23,7 +23,7 @@
    width: 0px;
    left: 20px;
    display: flex;
-   position: relative;   
+   position: absolute;   
    margin: 0px;
     align-items: center;
 }
@@ -79,6 +79,7 @@ position: absolute;
 left: 30px;
 margin: 0px;
 top: 130px;
+width: 310px;
 }
 .cerar1{
    position: absolute;
