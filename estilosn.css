@@ -1,93 +1,82 @@
 .piedra1{
  width: 40px;
  position: relative;
- left: 32px;
- top: 32px;
-
+ left: 20px;
+ top: 20px;
+ margin: 0px;
  
 }
 .piedra{
- background-color: rgb(170, 52, 52);
- height: 110px;
+   border: solid 13px rgb(223, 52, 84);
+ background-color: rgb(255, 255, 255);
+ height: 80px;
  position: relative;
- width: 110px;
- 
- left: 140px;
- top: 200px;
+ width: 80px;
+ margin: 0px;
  border-radius: 100%;
-}
-.piedra2{
-    background-color: rgb(255, 255, 255);
- height: 90px;
- position:absolute ;
- width: 90px;
- left: 10px;
- top: 10px;
- border-radius: 100%;
+ top: 160px;
+ left: 90px;
 }
 
 .triangulo{
    width: 0px;
-   left: 50px;
+   left: 20px;
    display: flex;
-   position: absolute;   
-   
-    
+   position: relative;   
+   margin: 0px;
+    align-items: center;
 }
 
-.papel1{
-   background-color: rgb(255, 255, 255);
- height: 90px;
- position:absolute ;
- width: 90px;
- left: 10px;
- top: 10px;
- border-radius: 100%;
-}
+
 
 .papel{
-   background-color: rgb(64, 78, 201);
- height: 110px;
+   background-color: rgb(255, 255, 255);
+ height: 80px;
  position: relative;
- width: 110px;
- left: 40px;
- top: -40px;
+ width: 80px;
+ margin: 0px;
  border-radius: 100%;
+ border: solid 13px rgb(73, 104, 247);
+left: -90px;
+top: 60px;
 }
 
 .papel2{
+   margin: 0px;
    width: 40px;
    position: relative;
-   left: 32px;
-   top: 32px;
-  
+   left: 20px;
+   top: 20px;
+  display: flex;
 }
 
 .tijeras{
-   background-color: rgb(229, 215, 22);
-   height: 110px;
-   position: relative;
-   width: 110px;
-   left: 230px;
-   top: -150px;
-   border-radius: 100%;
-}
-.tijeras1{
    background-color: rgb(255, 255, 255);
-   height: 90px;
-   position:absolute ;
-   width: 90px;
-   left: 10px;
-   top: 10px;
+   height: 80px;
+   position: relative;
+   width: 80px;
+   margin: 0px;
    border-radius: 100%;
+   border: solid 13px rgb(234, 158, 12);
+   top: 60px;
+   left: -50px;
 }
+
 
 .tijeras2{
+   margin: 0px;
    width: 40px;
    position: relative;
-   left: 32px;
-   top: 32px;
+   left: 20px;
+   top: 15px;
 }
 
+.contenedormayor{
+display: flex;
+align-items: center;
+position: relative;
+left: 20px;
+margin: 0px;
+}
 
 
