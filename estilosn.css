@@ -4,9 +4,10 @@
  left: 20px;
  top: 20px;
  margin: 0px;
- 
+ cursor: pointer;
 }
 .piedra{
+   cursor: pointer;
    border: solid 13px rgb(223, 52, 84);
  background-color: rgb(255, 255, 255);
  height: 80px;
@@ -19,9 +20,9 @@
 }
 
 .triangulo{
-   top: 130px;
+   top: 190px;
    width: 0px;
-   left: 20px;
+   left: 30px;
    display: flex;
    position: absolute;   
    margin: 0px;
@@ -31,6 +32,7 @@
 
 
 .papel{
+   cursor: pointer;
    background-color: rgb(255, 255, 255);
  height: 80px;
  position: relative;
@@ -43,6 +45,7 @@ top: 60px;
 }
 
 .papel2{
+   cursor: pointer;
    margin: 0px;
    width: 40px;
    position: relative;
@@ -52,6 +55,7 @@ top: 60px;
 }
 
 .tijeras{
+   cursor: pointer;
    background-color: rgb(255, 255, 255);
    height: 80px;
    position: relative;
@@ -65,6 +69,7 @@ top: 60px;
 
 
 .tijeras2{
+   cursor: pointer;
    margin: 0px;
    width: 40px;
    position: relative;
@@ -76,10 +81,10 @@ top: 60px;
 display: flex;
 align-items: center;
 position: absolute;
-left: 30px;
+left: 35px;
 margin: 0px;
-top: 130px;
-width: 310px;
+top: 190px;
+width: 308px;
 }
 .cerar1{
    position: absolute;
